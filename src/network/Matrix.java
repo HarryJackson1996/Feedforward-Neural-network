@@ -124,6 +124,10 @@ public class Matrix {
 	}
 	
 	
+	/**
+	 * 
+	 * @return
+	 */
 	public Matrix transpose() {
 		Matrix a = new Matrix(this.cols, this.rows);
 		
